@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar2.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -30,7 +30,7 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> 
+                <b className="purple">Web Technologies and Products </b>
                 {/* also in areas related to{" "}
                 <b className="purple">
                   Blockchain.
@@ -41,10 +41,7 @@ function Home2() {
               Whenever possible, I also apply my passion for developing products
               with <b className="purple">Django</b> and
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library 
-                </b>
+                <b className="purple"> Modern Javascript Library</b>
               </i>
               &nbsp; like
               <i>
@@ -54,7 +51,18 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid"
+                alt="avatar"
+                style={{
+                  borderRadius: "50%", 
+                  objectFit: "cover", 
+                  width: "100%", 
+                  height: "auto",
+                  marginTop:'-54px', 
+                }}
+              />
             </Tilt>
           </Col>
         </Row>
