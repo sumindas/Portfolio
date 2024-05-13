@@ -25,7 +25,7 @@ function Projects() {
               title="Connecting World"
               description="Built a Social Media platform with Django and React, merging frontend and backend seamlessly. Enhanced user experience with Redux Toolkit, used PostgreSQL for data handling, and integrated real-time chat and advanced video features."
               ghLink="https://github.com/sumindas/Connecting_World.git"
-              demoLink="https://front-end-connecting-world.vercel.app/"
+              demoLink="https://connecting-world.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -38,6 +38,15 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title=" Mob-Shop"
+              description="Led the development of a Mob shop  E-commerce website, combining React, Django, Django REST Framework, PostgreSQL, and JWT for secure authentication. Achieved a modern UI, structured data storage, and effective CRUD operations, gaining valuable web development experience"
+              ghLink="https://github.com/sumindas/Mobile_Shop.git"              
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
@@ -63,9 +72,9 @@ function Projects() {
               title="OLX Clone"
               description="Built the front end with ReactJS, mirroring the OLX platform's interface. Integrated Firebase for user authentication, data storage, and product listings. Utilized Context API for efficient state management."
               ghLink="https://github.com/sumindas/React_Olx_firebase"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
+          
         </Row>
       </Container>
     </Container>
