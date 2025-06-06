@@ -16,6 +16,7 @@ import {
   SiDjango ,
   SiHtml5 ,
   SiTailwindcss ,
+  SiFastapi
 } from "react-icons/si";
 import { TbSql  } from "react-icons/tb";
 
@@ -63,6 +64,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaAws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFastapi />
       </Col>
     </Row>
   );

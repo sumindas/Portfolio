@@ -19,34 +19,27 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I’m a passionate developer who enjoys solving problems and building scalable web applications.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I am proficient in 
               <i>
-                <b className="purple"> Python, C, Javascript and C++. </b>
+                <b className="purple"> Python, JavaScript, C, and C++. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My areas of interest include developing modern&nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b>
-                {/* also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b> */}
+                <b className="purple">Web Applications and Backend APIs</b>
               </i>
+              &nbsp;with a focus on performance and usability.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Django</b> and
+              I love working with frameworks like <b className="purple">Django</b> and <b className="purple">FastAPI</b>, along with frontend libraries like&nbsp;
               <i>
-                <b className="purple"> Modern Javascript Library</b>
+                <b className="purple">React.js</b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js </b>
-              </i>
+              . I'm also experienced in deploying and maintaining applications on cloud platforms such as <b className="purple">AWS</b> and <b className="purple">Azure</b>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
