@@ -1,28 +1,33 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { FaAws } from "react-icons/fa";
+import { FaAws, FaReact } from "react-icons/fa";
 import {
-  DiJavascript1,
-  DiReact,
-  DiMongodb,
   DiPython,
+  DiJavascript1,
   DiGit,
+  DiMongodb,
+  DiHtml5,
+  DiBootstrap,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiBootstrap ,
+  SiDjango,
+  SiFastapi,
   SiPostgresql,
-  SiDjango ,
-  SiHtml5 ,
-  SiTailwindcss ,
-  SiFastapi
+  SiTailwindcss,
+  SiRedux,
+  SiNginx,
+  SiAzuredevops,
+  SiCelery,
+  SiMysql,
+  SiGithub,
+  SiGitlab,
 } from "react-icons/si";
-import { TbSql  } from "react-icons/tb";
+import { TbSql } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      {/* Core Languages */}
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
@@ -30,43 +35,66 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiDjango  />
+        <TbSql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5 />
+        <DiHtml5 />
+      </Col>
+
+      {/* Frontend */}
+      <Col xs={4} md={2} className="tech-icons">
+        <FaReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiRedux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiBootstrap  />
+        <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiBootstrap />
+      </Col>
+
+      {/* Backend */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDjango />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFastapi />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCelery />
+      </Col>
+
+      {/* Database */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
+
+      {/* DevOps & Tools */}
       <Col xs={4} md={2} className="tech-icons">
-        <TbSql  />
+        <FaAws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAzuredevops />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNginx />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss  />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaAws />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFastapi />
+        <SiGitlab />
       </Col>
     </Row>
   );

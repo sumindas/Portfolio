@@ -8,16 +8,19 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Sumin Das V R</span> from <span className="purple">Kerala, India.</span>
+            Hi Everyone, I’m <span className="purple">Sumin Das V R</span> from <span className="purple">Kerala, India.</span>
             <br />
-            I am a Full Stack Developer with 1 year of hands-on experience building and deploying scalable web applications.
+            I’m a passionate <b>Full Stack Developer</b> with 1.5 years of experience building and deploying scalable web applications.
             <br />
-            I am proficient in Python, Django, FastAPI, ReactJS, and SQL. I have experience developing RESTful APIs, optimizing system performance, and deploying applications on cloud platforms like AWS and Azure.
+            I specialize in <b>Python (Django, FastAPI)</b>, <b>ReactJS</b>, and <b>SQL</b>, with strong expertise in crafting <b>RESTful APIs</b> and deploying solutions on <b>AWS</b> and <b>Azure</b>.
+            {/* <br /> */}
+            I enjoy solving complex backend challenges, optimizing system performance, and automating workflows through <b>CI/CD pipelines</b>.
             <br />
-            Skilled in using SQLAlchemy Core for raw SQL operations and managing CI/CD pipelines. I work effectively in Agile environments and collaborate with globally distributed teams to deliver high-quality software solutions.
+            I’ve also worked with globally distributed teams in <b>Agile environments</b> to deliver high-quality and impactful software products.
             <br />
             <br />
           </p>
+
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
